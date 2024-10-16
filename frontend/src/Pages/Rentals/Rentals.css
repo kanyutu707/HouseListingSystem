@@ -1,0 +1,57 @@
+.rentalContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    
+    width: 100%;
+}
+.rentalContainer header{
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+
+}
+.rentalContainer section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;  
+    width: 100%; 
+}
+
+.rentalContainer section span{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    border: 1px solid lightgray;
+    align-items: center;
+    padding: 20px;
+    max-height: 140px;
+    letter-spacing: 1px;
+    
+}
+.rentalContainer section span div{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    overflow-y: hidden;
+    
+}
+.rentalContainer section span div h4{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.rentalContainer section span img{
+    height: 100px;
+    width: 100px;
+}
+.rentalContainer section span button{
+    height:60px;
+    width:190px;
+    background-color: springgreen;
+
+}

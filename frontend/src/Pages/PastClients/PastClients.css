@@ -1,0 +1,87 @@
+.pastclientscontainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+.pastclientscontainer header{
+    font-size: 25px;
+    font-weight: 650;
+}
+.pastclientscontainer table{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4px;
+
+}
+.pastclientscontainer table caption{
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 5px;
+}
+.pastclientscontainer table caption .controls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.pastclientscontainer table caption svg{
+    height: 25px;
+    width: 25px;
+}
+.pastclientscontainer table caption  .pagenumber{
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pastclientscontainer table caption input{
+    width: 80%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    height: 40px;
+
+}
+.pastclientscontainer table thead{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+   
+}
+.pastclientscontainer table tbody{
+    width: 100%;
+    background-color: white;
+}
+ .pastclientscontainer table tbody tr{
+    height: 35px;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+    border-bottom: 1px solid lightgray;
+
+}
+.pastclientscontainer table thead th, .pastclientscontainer table tbody tr td{
+    text-align: start;
+
+}
+.pastclientscontainer table thead th{
+    font-size: 20px;
+
+}
+.pastclientscontainer table tbody tr td{
+    font-size: 17px;
+    font-weight: 300;
+    
+}

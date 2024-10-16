@@ -1,0 +1,12 @@
+.indexnavcontainer{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    border-bottom: 2px solid rgb(250, 250, 250);
+}
+.indexnavcontainer .logo{
+    padding: 2px;
+}
+.indexnavcontainer .logo h3{
+    font-size: 24px;
+}

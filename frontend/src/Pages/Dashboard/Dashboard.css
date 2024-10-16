@@ -1,0 +1,14 @@
+.dashboardcontainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+.dashboardcontainer header{
+    font-size: 30px;
+    font-weight: 700;
+}
+.dashboardcontainer header svg{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}

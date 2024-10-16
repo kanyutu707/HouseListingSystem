@@ -1,0 +1,48 @@
+.offerContainer{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 30px;
+  
+}
+.offerContainer header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-size:32px;
+
+}
+
+.offerContainer .Offers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+ .offerContainer .Offers .card{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    
+    border-radius: 5px;
+}
+
+.offerContainer .singleOffer .card img, .offerContainer .Offers .card img{
+    width: 430px;
+    height: 250px;
+    border-radius: 5px;
+}
+.offerContainer .Offers .card .cardDetails h3{
+    font-size: 25px;
+}
+.offerContainer .Offers .card .cardDetails h4{
+    font-size: 15px;
+    font-family: serif;
+}

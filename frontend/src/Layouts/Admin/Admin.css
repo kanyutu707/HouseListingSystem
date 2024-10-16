@@ -1,0 +1,15 @@
+.admincontainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.admincontainer section{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.admincontainer section .content{
+    padding: 20px;
+    overflow-y: scroll;
+}

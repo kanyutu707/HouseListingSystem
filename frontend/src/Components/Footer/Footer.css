@@ -1,0 +1,33 @@
+.footerContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+.footerContainer .details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.footerContainer .details .contacts, .footerContainer .details  .offices{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+.footerContainer .details .contacts header, .footerContainer .details  .offices header{
+    font-size: 21px;
+    font-weight: 700;
+}
+.footerContainer .details  .offices{
+    grid-gap: 10px;
+}
+
+.footerContainer .map{
+    width: 100%;
+}
+
+.footerContainer .map img{
+    width: 100%;
+    height: 220px;
+}

@@ -1,0 +1,100 @@
+.pastbookingscontainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 20px;
+}
+.pastbookingscontainer header{
+    font-size: 40px;
+    font-weight: 700;
+}
+.pastbookingscontainer section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+}
+.pastbookingscontainer section .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+    border:  1px solid lightgray;
+    width: 99%;
+}
+.pastbookingscontainer section .container img{
+    width: 100px;
+    height: 100px;
+}
+.pastbookingscontainer .controls{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+   
+    width: calc(97%);
+    align-self: center;
+    justify-self: center;
+}
+.pastbookingscontainer .controls svg{
+    width: 30px;
+    height: 30px;
+}
+.pastbookingscontainer .controls input{
+    display: flex;
+    align-self: center;
+    height: 35px;
+    justify-self: center;
+    
+}
+.pastbookingscontainer .controls span{
+    width: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.pastbookingscontainer section .container .details{
+    padding:0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.pastbookingscontainer section .container .details h2{
+    font-weight: 550;
+}
+.pastbookingscontainer section .container .details h4{
+    font-weight: 400;
+}
+.pastbookingscontainer section .container .bookings{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 120px;
+}
+.pastbookingscontainer section .container .bookings .booking{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+.pastbookingscontainer section .container .bookings .booking h3{
+    font-size: 17px;
+    font-weight: 550;
+}
+.pastbookingscontainer section .container .bookings .booking h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.pastbookingscontainer section .container button{
+    background-color: springgreen;
+    height: 45px;
+    display: flex;
+    align-self: center;
+    margin: 20px;
+    width: 120px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}

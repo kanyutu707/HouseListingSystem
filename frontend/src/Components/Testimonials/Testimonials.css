@@ -1,0 +1,47 @@
+.testimonialcontainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 50px;
+}
+.testimonialcontainer header{
+    font-size: 25px;
+    font-weight: 800;
+}
+.testimonialcontainer .testimonials{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 5px;
+}
+.testimonialcontainer .testimonials section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+.testimonialcontainer .testimonials section .header{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid whitesmoke;
+    padding: 3px;
+}
+.testimonialcontainer .testimonials section .header .headerDetails{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 5px;
+}
+.testimonialcontainer .testimonials section .header .headerDetails h3{
+    font-weight: 800;
+}
+.testimonialcontainer .testimonials section .header img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin: 5px;
+    display: flex;
+    align-self: center;
+}

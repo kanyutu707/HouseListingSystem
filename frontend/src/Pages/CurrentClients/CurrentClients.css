@@ -1,0 +1,87 @@
+.currentclientscontainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+.currentclientscontainer header{
+    font-size: 25px;
+    font-weight: 650;
+}
+.currentclientscontainer table{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4px;
+
+}
+.currentclientscontainer table caption{
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 5px;
+}
+.currentclientscontainer table caption .controls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.currentclientscontainer table caption svg{
+    height: 25px;
+    width: 25px;
+}
+.currentclientscontainer table caption  .pagenumber{
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.currentclientscontainer table caption input{
+    width: 80%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    height: 40px;
+
+}
+.currentclientscontainer table thead{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+   
+}
+.currentclientscontainer table tbody{
+    width: 100%;
+    background-color: white;
+}
+ .currentclientscontainer table tbody tr{
+    height: 35px;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+    border-bottom: 1px solid lightgray;
+
+}
+.currentclientscontainer table thead th, .currentclientscontainer table tbody tr td{
+    text-align: start;
+
+}
+.currentclientscontainer table thead th{
+    font-size: 20px;
+
+}
+.currentclientscontainer table tbody tr td{
+    font-size: 17px;
+    font-weight: 300;
+    
+}

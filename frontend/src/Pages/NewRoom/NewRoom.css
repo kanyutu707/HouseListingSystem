@@ -1,0 +1,60 @@
+.newroomcontainer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+   
+}
+.newroomcontainer form{
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+}
+.newroomcontainer form header{
+    margin: auto;
+    font-size: 22px;
+    font-weight: 700;
+}
+.newroomcontainer form .roombutton{
+    background-color: springgreen;
+    border-radius: 7px;
+    margin-top: 12px;
+    height: 50px;
+}
+.newroomcontainer form .input_group label, .newroomcontainer form .image_group label{
+    font-size: 19px;
+    font-weight: 550;
+}
+.newroomcontainer form .input_group{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4px;
+    margin-top: 8px;
+}
+.newroomcontainer form .input_group input, .newroomcontainer form .input_group select{
+    height: 40px;
+}
+.newroomcontainer form .image_group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+    
+}
+.newroomcontainer form .input_group textarea{
+    height: 100px;
+}
+.newroomcontainer form .image_group input{
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+   
+}
+.newroomcontainer form .image_group .preview{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 5px;
+
+}

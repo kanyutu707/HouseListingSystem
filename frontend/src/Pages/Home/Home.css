@@ -1,0 +1,95 @@
+.homecontainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 20px;
+}
+.homecontainer header{
+    font-size: 40px;
+    font-weight: 700;
+}
+.homecontainer .filtersection{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+    background-color: white;
+   
+    padding: 20px;
+
+}
+.homecontainer .filtersection span{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 7px;
+}
+.homecontainer .filtersection span input, .homecontainer .filtersection span select{
+    height: 37px;
+}
+.homecontainer .filtersection span label{
+    font-weight:550;
+}
+.homecontainer .datasection{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 17px;
+    height: 130px;
+}
+.homecontainer .datasection .containersection{
+    background-color: white;
+    padding: 7px;
+    display: flex;
+    border: 1px solid lightgray;
+    width: 99%;
+    justify-content: space-between;
+}
+.homecontainer .datasection .containersection img{
+    width: 120px;
+    height: 120px;
+}
+.homecontainer .datasection .containersection .detailsection{
+    display: flex;
+    flex-direction: column;
+    padding:0 20px 0 15px ;
+    
+}
+.homecontainer .datasection .containersection .detailsection header{
+    font-weight: 500;
+    font-size: 20px;
+}
+.homecontainer .datasection .containersection .detailsection h3{
+    font-size: 17px;
+    font-weight: 400;
+}
+.homecontainer .datasection .containersection button{
+    background-color:springgreen;
+    width: 150px;
+    display: flex;
+    align-self: center;
+    border-radius: 3px;
+    justify-self: center;
+    margin-top: 30%;
+
+}
+.homecontainer .controls{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+   
+    width: calc(97%);
+    align-self: center;
+    justify-self: center;
+}
+.homecontainer .controls svg{
+    width: 30px;
+    height: 30px;
+}
+.homecontainer .controls span{
+    width: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}

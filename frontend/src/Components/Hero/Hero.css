@@ -1,0 +1,43 @@
+.heroContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    background-color: white;
+    width: 100vw;
+    height: 60vh;
+    
+}
+.heroContainer span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    
+   
+}
+.heroContainer span h1{
+    color: lightgray;
+}
+.heroContainer span h2{
+    font-size: 22px;
+}
+.heroContainer span button{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 0;
+    width: 150px;
+}
+.heroContainer span button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.heroContainer span h4{
+    font-size: 15px;
+    color: red;
+}
+.heroContainer img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 1px 2px 1px 2px rgb(231, 231, 231);
+}
